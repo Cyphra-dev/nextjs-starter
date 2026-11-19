@@ -1,0 +1,5 @@
+{
+  "schema": "./schema.cyphra",
+  "migrations": "./migrations",
+  "generate": "./lib/cyphra.gen.ts"
+}

@@ -1,0 +1,14 @@
+// Notes connected through shared tags: a tiny graph.
+
+node Note {
+  id        String   @id @default(uuid())
+  text      String
+  createdAt DateTime @default(now())
+  tags      Tag[]    @relationship(type: "TAGGED", direction: OUT)
+}
+
+node Tag {
+  id    String @id @default(uuid())
+  name  String @unique
+  notes Note[] @relationship(type: "TAGGED", direction: IN)
+}

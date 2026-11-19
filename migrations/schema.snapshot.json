@@ -1,0 +1,107 @@
+{
+  "version": 1,
+  "nodes": [
+    {
+      "name": "Note",
+      "label": "Note",
+      "idField": "id",
+      "uniqueFields": [
+        "id"
+      ],
+      "fields": [
+        {
+          "kind": "scalar",
+          "name": "id",
+          "type": "String",
+          "optional": false,
+          "list": false,
+          "id": true,
+          "unique": false,
+          "index": false,
+          "default": {
+            "kind": "fn",
+            "fn": "uuid"
+          }
+        },
+        {
+          "kind": "scalar",
+          "name": "text",
+          "type": "String",
+          "optional": false,
+          "list": false,
+          "id": false,
+          "unique": false,
+          "index": false
+        },
+        {
+          "kind": "scalar",
+          "name": "createdAt",
+          "type": "DateTime",
+          "optional": false,
+          "list": false,
+          "id": false,
+          "unique": false,
+          "index": false,
+          "default": {
+            "kind": "fn",
+            "fn": "now"
+          }
+        },
+        {
+          "kind": "relation",
+          "name": "tags",
+          "target": "Tag",
+          "relType": "TAGGED",
+          "direction": "OUT",
+          "many": true,
+          "optional": false
+        }
+      ]
+    },
+    {
+      "name": "Tag",
+      "label": "Tag",
+      "idField": "id",
+      "uniqueFields": [
+        "id",
+        "name"
+      ],
+      "fields": [
+        {
+          "kind": "scalar",
+          "name": "id",
+          "type": "String",
+          "optional": false,
+          "list": false,
+          "id": true,
+          "unique": false,
+          "index": false,
+          "default": {
+            "kind": "fn",
+            "fn": "uuid"
+          }
+        },
+        {
+          "kind": "scalar",
+          "name": "name",
+          "type": "String",
+          "optional": false,
+          "list": false,
+          "id": false,
+          "unique": true,
+          "index": false
+        },
+        {
+          "kind": "relation",
+          "name": "notes",
+          "target": "Note",
+          "relType": "TAGGED",
+          "direction": "IN",
+          "many": true,
+          "optional": false
+        }
+      ]
+    }
+  ],
+  "relationships": []
+}
