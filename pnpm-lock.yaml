@@ -167,8 +167,8 @@ importers:
   .:
     dependencies:
       cyphra:
-        specifier: ^0.2.0
-        version: 0.2.0
+        specifier: ^0.3.0
+        version: 0.3.0
       next:
         specifier: 16.4.6
         version: 16.4.6(@babel/core@7.29.13(supports-color@7.2.0))(@types/node@20.19.43)(react-dom@19.3.0(react@19.3.0))(react@19.3.0)
@@ -183,8 +183,8 @@ importers:
         version: 0.0.1
     devDependencies:
       '@cyphra/cli':
-        specifier: ^0.2.0
-        version: 0.2.0
+        specifier: ^0.3.0
+        version: 0.3.0
       '@tailwindcss/turbopack':
         specifier: 4.3.3
         version: 4.3.3
@@ -283,21 +283,21 @@ packages:
     resolution: {integrity: sha512-UjI/dKmwJwT9pOszJitq2G6EObZPnsZUfdCr92z2TlF3EZK9J3EdfOKUrCzHl6wFthbzwhzl1Soc/UIwxRiq6w==}
     engines: {node: '>=6.9.0'}
 
-  '@cyphra/cli@0.2.0':
-    resolution: {integrity: sha512-QA6l181Lq3nkx3WNXAc/MH3bwM9F3c+PIrzEZ3Bwcgt/RaRlSm/VuZw3+CwhUuFB1mqV91SJS95El0N60k+wgg==}
+  '@cyphra/cli@0.3.0':
+    resolution: {integrity: sha512-HHVq3IrhpMG2+IWV07Oe0pdDEpn80EtggUbycTIOqj/ZER2ZIGEgGloAjE/SdueaEDnxH/quWahICP/tSAaUqQ==}
     hasBin: true
 
-  '@cyphra/migrator@0.2.0':
-    resolution: {integrity: sha512-yo5/M17GiRbb0joV/gLPTKoU96dhjtbZkKFcYE27nmlnzWaB4G913CEfwjSJl82u4bo+f46sOvl7E4gdTD7A6g==}
+  '@cyphra/migrator@0.3.0':
+    resolution: {integrity: sha512-6BYL2eG/odbE3qlWVgykuWn7rGAiGWXGrctV6WRgNhUEzRsZD0hbVA5y6C1il+k6RCj1p/QoUtt8Hah4lmcc7g==}
 
-  '@cyphra/query@0.2.0':
-    resolution: {integrity: sha512-mVKyI7051Y6DIh4fSreymk/j1L3rHJpa/5PUAoRJryuMBd/j2Hfjb+7/8UwfQS0YQnxBgzt9utX0cKW5M0sUfA==}
+  '@cyphra/query@0.3.0':
+    resolution: {integrity: sha512-wLikN1atB7nUDXyJ8LBiknoXo7DIM9gGTLLOrIDLaTy3oMym0Bcw0t5KvJB05p1UZIgSFs1PCFXZOYfrwRuaiQ==}
 
-  '@cyphra/runtime@0.2.0':
-    resolution: {integrity: sha512-wGW1XMMcH2aZvmjzKvuISdpLx8anGtZGaD3oWoRuGd05ZwQHIBtnvzuZ+tPBroIYr3zG036Ji26ojUg/91Yv6g==}
+  '@cyphra/runtime@0.3.0':
+    resolution: {integrity: sha512-+vRhWPQRiB4DIyPjuiz3LQLRc2b08Z5Xy/JT/mNwRs1FVyhYDZ0uTYS2NjG5fS6yxFImTn+XIMCV2WpZhV+9cw==}
 
-  '@cyphra/schema@0.2.0':
-    resolution: {integrity: sha512-3ghEOHI+rukmrDU7VNYv47KhAPcPVP5CWPjQCwouwQD3Tk5gRHXASH7Mehl2AjQn0qBtmFh87+kVQJzroUHp5g==}
+  '@cyphra/schema@0.3.0':
+    resolution: {integrity: sha512-oryju+1iX4tCQpbBdAW2gUG5wYBDDvuqtskTRTbxaY2VLKXOqHFu2gO2GavO1NsjYk2hgs58wlrBR+tCigmM+w==}
 
   '@emnapi/runtime@1.11.3':
     resolution: {integrity: sha512-Xz4Tpyki7XyrpbUK1jR1AhdAdaXyhhY4lZ3neLodmhpuWfy2PAQN5B46sAiU4liOXGLkHypn/qU+jvfWSCYYLA==}
@@ -1076,8 +1076,8 @@ packages:
   csstype@3.2.4:
     resolution: {integrity: sha512-PoKaoPzQapnEoqUSnHx1u6W6ku8CVEgKsnpmmzU3m1nwkidpPBQ8V/Zq2+bWNrsOKoKLwTGdbx6xF7BXP1zLVQ==}
 
-  cyphra@0.2.0:
-    resolution: {integrity: sha512-9pmP2abl3VW235l3yn/LMic0oVAPjuKSF10TF0yEMPvq8/V+qCs9LmJ4UKefN4oVWKQuT1JMD2iURlQ+O85J+g==}
+  cyphra@0.3.0:
+    resolution: {integrity: sha512-DrAGtGdt6hiwLynPY5LsSZStah01H2bp6aMs0F9AQBqEhpqwblYEizisQ3poI75QS7ma4Jb+1ux0BQDXAiCTtw==}
 
   damerau-levenshtein@1.0.8:
     resolution: {integrity: sha512-sdQSFB7+llfUcQHUQO3+B8ERRj0Oa4w9POWMI/puGtuf7gFywGmkaLCElnudfTiKZV+NvHqL0ifzdrI8Ro7ESA==}
@@ -2311,29 +2311,29 @@ snapshots:
       '@babel/helper-string-parser': 7.29.14
       '@babel/helper-validator-identifier': 7.29.7
 
-  '@cyphra/cli@0.2.0':
+  '@cyphra/cli@0.3.0':
     dependencies:
-      '@cyphra/migrator': 0.2.0
-      '@cyphra/runtime': 0.2.0
-      '@cyphra/schema': 0.2.0
+      '@cyphra/migrator': 0.3.0
+      '@cyphra/runtime': 0.3.0
+      '@cyphra/schema': 0.3.0
       commander: 12.1.0
 
-  '@cyphra/migrator@0.2.0':
+  '@cyphra/migrator@0.3.0':
     dependencies:
-      '@cyphra/query': 0.2.0
-      '@cyphra/runtime': 0.2.0
-      '@cyphra/schema': 0.2.0
+      '@cyphra/query': 0.3.0
+      '@cyphra/runtime': 0.3.0
+      '@cyphra/schema': 0.3.0
       neo4j-driver: 5.28.3
 
-  '@cyphra/query@0.2.0': {}
+  '@cyphra/query@0.3.0': {}
 
-  '@cyphra/runtime@0.2.0':
+  '@cyphra/runtime@0.3.0':
     dependencies:
-      '@cyphra/query': 0.2.0
-      '@cyphra/schema': 0.2.0
+      '@cyphra/query': 0.3.0
+      '@cyphra/schema': 0.3.0
       neo4j-driver: 5.28.3
 
-  '@cyphra/schema@0.2.0': {}
+  '@cyphra/schema@0.3.0': {}
 
   '@emnapi/runtime@1.11.3':
     dependencies:
@@ -3014,12 +3014,12 @@ snapshots:
 
   csstype@3.2.4: {}
 
-  cyphra@0.2.0:
+  cyphra@0.3.0:
     dependencies:
-      '@cyphra/migrator': 0.2.0
-      '@cyphra/query': 0.2.0
-      '@cyphra/runtime': 0.2.0
-      '@cyphra/schema': 0.2.0
+      '@cyphra/migrator': 0.3.0
+      '@cyphra/query': 0.3.0
+      '@cyphra/runtime': 0.3.0
+      '@cyphra/schema': 0.3.0
 
   damerau-levenshtein@1.0.8: {}
 
